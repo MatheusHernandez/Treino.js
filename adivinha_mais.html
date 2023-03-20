@@ -4,7 +4,7 @@
 <button>Compare com meu segredo</button>
 <script>
 
-    var segredo = 5
+    var segredo = Math.round(Math.random()*10)
     var input =document.querySelector("input")
     
     function verifica(){
@@ -13,10 +13,15 @@
         }else{
         alert('Voce errou seu burro')
         }
-    }
 
+        input.value = "";
+        input.focus();
+    }
+    
+    
     var button = document.querySelector('button')
-    button.onclick = verifica
+    button.onclick = verifica;
+    
 
 
 </script>
