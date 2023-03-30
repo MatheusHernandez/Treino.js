@@ -1,8 +1,4 @@
-<meta charset="UTF=8">
 
-<input type="text">
-<button>Compare com meu segredo</button>
-<script>
 
     
     function sorteia () {
@@ -47,4 +43,3 @@
     
 
 
-</script>
